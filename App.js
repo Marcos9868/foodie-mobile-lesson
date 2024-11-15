@@ -1,5 +1,5 @@
 import { StyleSheet, Text, View } from 'react-native';
-import Button from './src/components/button/Button';
+import Button from './src/components/button/Button.jsx';
 
 export default function App() {
   return (
@@ -7,7 +7,7 @@ export default function App() {
       <View>
         <Text style={styles.text}>Olá meu chapa</Text>
       </View>
-      <Button />
+      <Button name="Clique em mim"/>
     </View>
   );
 }
