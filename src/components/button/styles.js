@@ -2,9 +2,10 @@ import { colors, fontSize } from '../../constants/theme.js';
 
 export const styles = {
     btn: {
-        width: '100%',
+        width: 300,
         height: 50,
-        backgroundColor: colors.red
+        backgroundColor: colors.red,
+        borderRadius: 6
     },
     textos: {
         fontSize: fontSize.md,
