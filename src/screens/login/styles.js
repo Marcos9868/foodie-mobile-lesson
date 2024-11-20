@@ -8,11 +8,26 @@ export const styles = {
         justifyContent: 'center'
     },
     form: {
-        width: '100%',
-        marginBottom: 25
+        width: 300,
+        marginBottom: 25,
+        alignItems: 'center',
+        justifyContent: 'center'
     },
     formGroup: {
         width: '100%',
-        marginTop: 50
+        marginTop: 50,
+        alignItems: 'center'
+    },
+    footer: {
+        width: 300,
+        position: 'absolute',
+        bottom: 0,
+        marginBottom: 40,
+        alignItems: 'center'
+    },
+    footerText: {
+        textAlign: 'center',
+        color: colors.darkGray,
+        fontSize: fontSize.md
     }
 };

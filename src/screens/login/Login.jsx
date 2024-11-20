@@ -1,4 +1,4 @@
-import { View } from "react-native";
+import { Text, TouchableOpacity, View } from "react-native";
 import { styles } from "./styles";
 import Header from "../../components/header/Header";
 import Form from "../../components/form/Form";
@@ -25,6 +25,11 @@ export default function Login() {
                 <View style={styles.form}>
                     <Button name="Acessar"/>
                 </View>
+            </View>
+            <View style={styles.footer}>
+                <TouchableOpacity>
+                    <Text style={styles.footerText}>Criar minha conta</Text>
+                </TouchableOpacity>
             </View>
         </View>
     );
