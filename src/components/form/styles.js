@@ -2,12 +2,14 @@ import { colors, fontSize } from "../../constants/theme";
 
 export const styles = {
     input: {
+        display: 'flex',
         width: 300,
         backgroundColor: colors.white,
         padding: 10,
         borderRadius: 6,
         borderWidth: 1,
-        borderColor: colors.lightGreen
+        borderColor: colors.lightGreen,
+        alignItems: 'center'
     },
     label: {
         textAlign: 'start',
