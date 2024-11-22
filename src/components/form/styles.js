@@ -4,11 +4,11 @@ export const styles = {
     input: {
         display: 'flex',
         width: 300,
-        backgroundColor: colors.white,
+        backgroundColor: colors.lightGray,
         padding: 10,
         borderRadius: 6,
         borderWidth: 1,
-        borderColor: colors.lightGreen,
+        borderColor: colors.gray,
         alignItems: 'center'
     },
     label: {

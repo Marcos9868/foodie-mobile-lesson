@@ -2,8 +2,9 @@ const colors = {
     red: '#ED5359',
     darkGray: '#5D6275',
     mediumGray: '#A6ABBC',
-    lightGray: '#E5ECFC',
-    white: '#F4F7FE',
+    gray: '#E5ECFC',
+    lightGray: '#F4F7FE',
+    white: '#FFFFFF',
     lightGreen: '#38C682'
 };
 
