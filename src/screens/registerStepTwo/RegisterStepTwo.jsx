@@ -15,6 +15,8 @@ export default function RegisterStepTwo() {
                             label="Endereço"
                             placeholder="Digite o endereço"
                         />
+                    </View>
+                    <View style={styles.form}>
                         <Form
                             label="Complemento"
                             placeholder="Ex: Apto 123"
