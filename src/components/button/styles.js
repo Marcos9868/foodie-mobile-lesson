@@ -5,7 +5,8 @@ export const styles = {
         width: 300,
         height: 50,
         backgroundColor: colors.red,
-        borderRadius: 6
+        borderRadius: 6,
+        marginTop: 25
     },
     textos: {
         fontSize: fontSize.md,
